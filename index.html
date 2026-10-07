@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Qori Jenjira Islami - Mahasiswa Hukum Universitas Islam Riau">
+    <title>Qori Jenjira Islami | Mahasiswa Hukum UIR</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Riri<span>.</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Halo, saya</p>
+                <h1 class="hero-name">Qori Jenjira Islami</h1>
+                <h2 class="hero-role">Mahasiswa Hukum - Universitas Islam Riau</h2>
+                <p class="hero-desc">
+                    Mahasiswa Fakultas Hukum angkatan 2024 yang berfokus pada 
+                    bidang Hukum Perdata. Berkomitmen untuk mendalami ilmu hukum 
+                    dan berkontribusi dalam dunia keadilan di Indonesia.
+                </p>
+
+                <!-- Player Musik -->
+                <div class="music-player" id="musicPlayer">
+                    <button class="music-btn" id="musicToggle" aria-label="Play Music">
+                        <i class="fas fa-music" id="musicIcon"></i>
+                    </button>
+                    <div class="music-info">
+                        <span class="music-title" id="musicTitle">Back to December</span>
+                        <span class="music-subtitle" id="musicSubtitle">Taylor Swift</span>
+                    </div>
+                    <button class="music-next" id="musicNext" aria-label="Next Song">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                    <audio id="audioPlayer"></audio>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Tentang Saya</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/qorijenjira" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:qoriislami416@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profil.jpg" alt="Foto Qori Jenjira Islami" id="fotoProfil">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title">Tentang <span>Saya</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Saya <strong>Qori Jenjira Islami</strong>, mahasiswa Fakultas Hukum 
+                        Universitas Islam Riau angkatan 2024. Saat ini saya sedang 
+                        mendalami dan berkonsentrasi pada bidang <strong>Hukum Perdata</strong>.
+                    </p>
+                    <p>
+                        Saya memiliki ketertarikan besar dalam mempelajari hukum 
+                        perdata, mulai dari hukum perorangan, keluarga, harta kekayaan, 
+                        hingga hukum waris. Saya percaya bahwa pemahaman hukum yang baik 
+                        dapat membantu menciptakan keadilan dan ketertiban di masyarakat.
+                    </p>
+                    <ul class="about-info">
+                        <li><strong>Nama:</strong> Qori Jenjira Islami</li>
+                        <li><strong>Email:</strong> qoriislami416@gmail.com</li>
+                        <li><strong>Lokasi:</strong> Pekanbaru, Riau</li>
+                        <li><strong>Universitas:</strong> Universitas Islam Riau</li>
+                        <li><strong>Fakultas:</strong> Hukum</li>
+                        <li><strong>Angkatan:</strong> 2024</li>
+                        <li><strong>Konsentrasi:</strong> Hukum Perdata</li>
+                        <li><strong>Status:</strong> Mahasiswa Aktif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Tentang <span>Keahlian</span></h2>
+            <div class="skills-grid">
+
+                <!-- BIDANG HUKUM -->
+                <div class="skill-card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Hukum Perdata</h3>
+                    <p>Fokus pada hukum perorangan, keluarga, harta kekayaan & waris</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-scale-balanced"></i>
+                    <h3>Analisis Hukum</h3>
+                    <p>Mampu menganalisis kasus & peraturan perundang-undangan</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-file-contract"></i>
+                    <h3>Drafting Dokumen</h3>
+                    <p>Menyusun & memahami dokumen hukum serta kontrak perdata</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Public Speaking</h3>
+                    <p>Berlatih argumentasi & komunikasi di forum diskusi hukum</p>
+                </div>
+
+                <!-- HOBI -->
+                <div class="skill-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Gaming</h3>
+                    <p>Main game berbagai genre: MOBA, FPS, RPG & Mobile Games</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food Hunter</h3>
+                    <p>Hobi cari kuliner enak & tempat makan hits</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Qori Jenjira Islami | Mahasiswa Hukum UIR</p>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Lightbox Foto Profil -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img src="assets/images/profil.jpg" alt="Foto Qori Jenjira Islami" class="lightbox-img">
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
